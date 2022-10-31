@@ -1,18 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>cpu</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <a href="index.html">Home</a>
-        
-        <p style="border: 1px solid black">Hoe werkt een CPU (processor):</p>
-        <p>Een programmacode uit te voeren doorloopt een CPU een aantal stappen. 
-        Het programma zelf staat in het RAM-geheugen. De processor maakt gebruik van een teller – de programmateller – die het geheugenadres van de instructie bijhoudt. 
+<html lang="en">
+<head>
+<title>Website Pieter van der Waard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+ 
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+ 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Website</h2>
+<p> Dit is mijn eerste website</p>
+
+<header>
+  <h2>Inhoud:</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">3 lagen model</a></li>
+      <li><a href="telefoonspecs.html">telefoonspecs</a></li>
+      <li><a href="cpu.html">informatie cpu</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>informatie cpu</h1>
+    <p>Een programmacode uit te voeren doorloopt een CPU een aantal stappen. 
+        Het programma zelf staat in het RAM-geheugen. De processor maakt gebruik van een teller de programmateller die het geheugenadres van de instructie bijhoudt. 
         Het begint met de ophaalfase (fetch-fase) waarin de processor de instructies ophaalt vanuit het  ROM geheugen. 
         De code die in het geheugenadres staat wordt gebruikt voor de volgende fase, de decodeerfase. Aan de hand van de code in het geheugenadres worden de verschillende componenten van de processor in de juiste stand gezet om de bewerking uit te voeren. 
         Als de processor in de juiste stand staat gaan we over naar de uitvoerfase (execute-fase) waarin de berekening wordt gestart. 
         Als de berekening voltooid is volgt de opslag-fase (stor-fase) waarin de uitkomst van de berekening in het opgeslagen wordt.<p/>
-    </body>
+  </article>
+
+  
+</section>
+
+<footer>
+  <p>Gemaakt door Pieter van der Waard</p>
+</footer>
+
+</body>
 </html>
