@@ -1,14 +1,105 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>3 lagen model uitleg</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <a href="index.html">Home</a>
-        <p style="border: 1px solid black">Het 3 lagen model:</p>
-        <p> Je hebt 3 lagen op een apperaat. De eerste laag is de fysieke laag dat is de laag waar de hardware bij hoort. Dit is alles wat je kan aanraken dus muis, beeldscherm, cpu enz..
-        De tweede laag is de logische laag dat is de laag waar je operating system op staat dus bijvoorbeeld: Windows, Mac, Linux, Android en IOS.
-        De derde laag is de loepassingen laag dit betekend dut elke app op programma op uw computer of smartphone behave camera en apps die standaart op uw operating systeem staan.</p>
-    </body>
+<html lang="en">
+<head>
+<title>Website Pieter van der Waard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+ 
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+ 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Website</h2>
+<p> Dit is mijn eerste website</p>
+
+<header>
+  <h2>Inhoud:</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="3lagenmodel.html">3 lagen model</a></li>
+      <li><a href="telefoonspecs.html">telefoonspecs</a></li>
+      <li><a href="cpu.html">informatie cpu</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>3-lagenmodel</h1>
+    <p>Je hebt 3 lagen op een apperaat. De eerste laag is de fysieke laag dat is de laag waar de hardware bij hoort. Dit is alles wat je kan aanraken dus muis, beeldscherm, cpu enz..
+       De tweede laag is de logische laag dat is de laag waar je operating system op staat dus bijvoorbeeld: Windows, Mac, Linux, Android en IOS.
+       De derde laag is de loepassingen laag dit betekend dut elke app op programma op uw computer of smartphone behave camera en apps die standaart op uw operating systeem staan.</p>
+  </article>
+
+  
+</section>
+
+<footer>
+  <p>Gemaakt door Pieter van der Waard</p>
+</footer>
+
+</body>
 </html>
